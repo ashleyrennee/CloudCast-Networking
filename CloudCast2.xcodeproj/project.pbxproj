@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2CE5BF2ACB8EF7001103B2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CE5BE2ACB8EF7001103B2 /* Location.swift */; };
+		6C2CE5C12ACB90DE001103B2 /* WeatherForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CE5C02ACB90DE001103B2 /* WeatherForecastService.swift */; };
 		997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */; };
 		997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */; };
 		997BF5EF29D4838D0099F2B4 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EE29D4838D0099F2B4 /* ForecastViewController.swift */; };
@@ -37,7 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		997BF5E729D4838D0099F2B4 /* CloudCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2CE5BE2ACB8EF7001103B2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6C2CE5C02ACB90DE001103B2 /* WeatherForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastService.swift; sourceTree = "<group>"; };
+		997BF5E729D4838D0099F2B4 /* CloudCast2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCast2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		997BF5EE29D4838D0099F2B4 /* ForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewController.swift; sourceTree = "<group>"; };
@@ -45,9 +49,9 @@
 		997BF5F329D4838E0099F2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997BF5F629D4838E0099F2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		997BF5F829D4838E0099F2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		997BF5FD29D4838E0099F2B4 /* CloudCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		997BF5FD29D4838E0099F2B4 /* CloudCast2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudCast2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997BF60129D4838E0099F2B4 /* CloudCastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCastTests.swift; sourceTree = "<group>"; };
-		997BF60729D4838E0099F2B4 /* CloudCastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudCastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		997BF60729D4838E0099F2B4 /* CloudCast2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudCast2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997BF60B29D4838E0099F2B4 /* CloudCastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCastUITests.swift; sourceTree = "<group>"; };
 		997BF60D29D4838E0099F2B4 /* CloudCastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCastUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		99E9824829D7944B0084E9EB /* CurrentWeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherForecast.swift; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2CE5BD2ACB8EE1001103B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C2CE5BE2ACB8EF7001103B2 /* Location.swift */,
+				6C2CE5C02ACB90DE001103B2 /* WeatherForecastService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		997BF5DE29D4838D0099F2B4 = {
 			isa = PBXGroup;
 			children = (
@@ -91,9 +104,9 @@
 		997BF5E829D4838D0099F2B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				997BF5E729D4838D0099F2B4 /* CloudCast.app */,
-				997BF5FD29D4838E0099F2B4 /* CloudCastTests.xctest */,
-				997BF60729D4838E0099F2B4 /* CloudCastUITests.xctest */,
+				997BF5E729D4838D0099F2B4 /* CloudCast2.app */,
+				997BF5FD29D4838E0099F2B4 /* CloudCast2Tests.xctest */,
+				997BF60729D4838E0099F2B4 /* CloudCast2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +114,7 @@
 		997BF5E929D4838D0099F2B4 /* CloudCast */ = {
 			isa = PBXGroup;
 			children = (
+				6C2CE5BD2ACB8EE1001103B2 /* Model */,
 				997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */,
 				997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */,
 				997BF5EE29D4838D0099F2B4 /* ForecastViewController.swift */,
@@ -133,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		997BF5E629D4838D0099F2B4 /* CloudCast */ = {
+		997BF5E629D4838D0099F2B4 /* CloudCast2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 997BF61129D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast" */;
+			buildConfigurationList = 997BF61129D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast2" */;
 			buildPhases = (
 				997BF5E329D4838D0099F2B4 /* Sources */,
 				997BF5E429D4838D0099F2B4 /* Frameworks */,
@@ -145,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = CloudCast;
+			name = CloudCast2;
 			productName = CloudCast;
-			productReference = 997BF5E729D4838D0099F2B4 /* CloudCast.app */;
+			productReference = 997BF5E729D4838D0099F2B4 /* CloudCast2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		997BF5FC29D4838E0099F2B4 /* CloudCastTests */ = {
+		997BF5FC29D4838E0099F2B4 /* CloudCast2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 997BF61429D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCastTests" */;
+			buildConfigurationList = 997BF61429D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast2Tests" */;
 			buildPhases = (
 				997BF5F929D4838E0099F2B4 /* Sources */,
 				997BF5FA29D4838E0099F2B4 /* Frameworks */,
@@ -163,14 +177,14 @@
 			dependencies = (
 				997BF5FF29D4838E0099F2B4 /* PBXTargetDependency */,
 			);
-			name = CloudCastTests;
+			name = CloudCast2Tests;
 			productName = CloudCastTests;
-			productReference = 997BF5FD29D4838E0099F2B4 /* CloudCastTests.xctest */;
+			productReference = 997BF5FD29D4838E0099F2B4 /* CloudCast2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		997BF60629D4838E0099F2B4 /* CloudCastUITests */ = {
+		997BF60629D4838E0099F2B4 /* CloudCast2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 997BF61729D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCastUITests" */;
+			buildConfigurationList = 997BF61729D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast2UITests" */;
 			buildPhases = (
 				997BF60329D4838E0099F2B4 /* Sources */,
 				997BF60429D4838E0099F2B4 /* Frameworks */,
@@ -181,9 +195,9 @@
 			dependencies = (
 				997BF60929D4838E0099F2B4 /* PBXTargetDependency */,
 			);
-			name = CloudCastUITests;
+			name = CloudCast2UITests;
 			productName = CloudCastUITests;
-			productReference = 997BF60729D4838E0099F2B4 /* CloudCastUITests.xctest */;
+			productReference = 997BF60729D4838E0099F2B4 /* CloudCast2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 997BF5E229D4838D0099F2B4 /* Build configuration list for PBXProject "CloudCast" */;
+			buildConfigurationList = 997BF5E229D4838D0099F2B4 /* Build configuration list for PBXProject "CloudCast2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				997BF5E629D4838D0099F2B4 /* CloudCast */,
-				997BF5FC29D4838E0099F2B4 /* CloudCastTests */,
-				997BF60629D4838E0099F2B4 /* CloudCastUITests */,
+				997BF5E629D4838D0099F2B4 /* CloudCast2 */,
+				997BF5FC29D4838E0099F2B4 /* CloudCast2Tests */,
+				997BF60629D4838E0099F2B4 /* CloudCast2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,8 +277,10 @@
 			files = (
 				997BF5EF29D4838D0099F2B4 /* ForecastViewController.swift in Sources */,
 				997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */,
+				6C2CE5BF2ACB8EF7001103B2 /* Location.swift in Sources */,
 				997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */,
 				99E9824929D7944B0084E9EB /* CurrentWeatherForecast.swift in Sources */,
+				6C2CE5C12ACB90DE001103B2 /* WeatherForecastService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		997BF5FF29D4838E0099F2B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 997BF5E629D4838D0099F2B4 /* CloudCast */;
+			target = 997BF5E629D4838D0099F2B4 /* CloudCast2 */;
 			targetProxy = 997BF5FE29D4838E0099F2B4 /* PBXContainerItemProxy */;
 		};
 		997BF60929D4838E0099F2B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 997BF5E629D4838D0099F2B4 /* CloudCast */;
+			target = 997BF5E629D4838D0099F2B4 /* CloudCast2 */;
 			targetProxy = 997BF60829D4838E0099F2B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -503,7 +519,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudCast";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudCast2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudCast2";
 			};
 			name = Debug;
 		};
@@ -522,7 +538,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudCast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudCast";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudCast2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CloudCast2";
 			};
 			name = Release;
 		};
@@ -563,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		997BF5E229D4838D0099F2B4 /* Build configuration list for PBXProject "CloudCast" */ = {
+		997BF5E229D4838D0099F2B4 /* Build configuration list for PBXProject "CloudCast2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				997BF60F29D4838E0099F2B4 /* Debug */,
@@ -572,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		997BF61129D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast" */ = {
+		997BF61129D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				997BF61229D4838E0099F2B4 /* Debug */,
@@ -581,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		997BF61429D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCastTests" */ = {
+		997BF61429D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				997BF61529D4838E0099F2B4 /* Debug */,
@@ -590,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		997BF61729D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCastUITests" */ = {
+		997BF61729D4838E0099F2B4 /* Build configuration list for PBXNativeTarget "CloudCast2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				997BF61829D4838E0099F2B4 /* Debug */,
